@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 .mySwiper .swiper-pagination-bullet {
-  @apply bg-white border-white; /* Applies Tailwind's white background color */
+  @apply bg-white border-white; 
 }
 
 .mySwiper .swiper-pagination-bullet-active {
-  @apply bg-white; /* Applies Tailwind's white background color for active bullet */
+  @apply bg-white;
 }
 
 
 .swiper-pagination-bullet {
-    @apply bg-transparent border border-gray-600; /* Default bullet border and transparent background */
+    @apply bg-transparent border border-gray-600; 
   }
   
   .swiper-pagination-bullet-active {
-    @apply bg-gray-500 border-gray-600; /* Active bullet background and border color */
+    @apply bg-gray-500 border-gray-600; 
   }
   
 body {
